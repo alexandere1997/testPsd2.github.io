@@ -1,2 +1,1 @@
-# testPsd2.github.io
-testPsd2
+Запуск командой gulp
