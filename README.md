@@ -27,3 +27,4 @@
 "jquery": "^3.4.1"
 
 Запуск командой gulp
+или открыть на github https://alexandere1997.github.io/testPsd2.github.io/build/index.html
