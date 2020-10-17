@@ -1,0 +1,110 @@
+.header
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 100%
+	height: 757px
+	//height: 902px
+	background: url(img/BG.png)
+	background-repeat: no-repeat
+	background-position: center center
+	//background: linear-gradient(rgba(43, 45, 92, 0.95), rgba(43, 45, 92, 0.95)), url("../images/pexels-photo-432743.png")
+	&__body
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		width: 1270px
+		height: 90vh
+		//height: 828px
+	&__nav
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__toogle
+		display: none
+		font-size: 37px
+		color: #fff
+		cursor: pointer
+	&__out
+		display: none
+		justify-content: center
+		width: 50%
+		font-size: 37px
+		color: #fff
+		cursor: pointer
+	&__items_active
+		border-bottom: 1px solid yellow
+	&__item
+		display: flex
+		justify-content: space-between
+		width: 338px
+		height: 23px
+	&__items
+		font-family: 'Muli', sans-serif
+		font-style: normal
+		font-weight: 600
+		font-size: 14px
+		text-align: right
+		text-decoration: none
+		color: #FFFFFF
+		transition: 0.4s
+	&__title
+		font-family: 'Trirong', serif
+		font-style: normal
+		font-weight: 300
+		font-size: 60px
+		line-height: 72px
+		align-items: center
+		color: #FFFFFF
+	&__subtitle
+		font-family: 'Muli', sans-serif
+		font-style: normal
+		font-weight: 200
+		font-size: 20px
+		line-height: 32px
+		align-items: center;
+		letter-spacing: 0.1px
+		color: #FFFFFF
+	&__button
+		display: flex
+		justify-content: center
+		align-items: center
+		text-decoration: none
+		border-radius: 36px
+		background: #F2C200
+		font-family: 'Muli', sans-serif
+		font-style: normal
+		width: 224px
+		height: 63px
+		font-weight: normal
+		font-size: 16px
+		line-height: 30px
+		align-items: center
+		color: #2B2D5C
+		transition: 0.4s
+		&:hover
+			color: #000
+			background-color: #ffffff
+	&__links
+		display: flex
+		justify-content: space-between
+		width: 1259px
+		z-index: 1
+	&__box
+		display: flex
+		justify-content: space-between
+		width: 133px
+		height: 23px
+	&__arrow 
+		cursor: pointer
+		animation: bounce 2s infinite linear
+		@keyframes bounce
+			0%, 20%, 50%, 80%, 100%
+				transform: translateY(0)
+			40%
+				transform: translateY(-30px)
+			60%
+				transform: translateY(-15px)
+	&__link
+		color: #ffffff
+	
